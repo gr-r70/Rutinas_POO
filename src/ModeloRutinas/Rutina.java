@@ -16,7 +16,7 @@ public abstract class Rutina {
     private boolean activa;
     private ArrayList<Paso> pasos;
 
-    public Rutina(String nombre, boolean activa, ArrayList<Paso> pasos) {
+    public Rutina(String nombre) {
         this.nombre = nombre;
         this.activa = true;
         this.pasos = new ArrayList<>();
