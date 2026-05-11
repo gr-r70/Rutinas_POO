@@ -50,6 +50,9 @@ public void marcarCompleto(){
         String estado = completado ?"[✓]" : "[ ]";
         return estado + "Paso" +numero +":"+ descripcion;//Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
     }
+    }
+    }
+    }
     
 
 
