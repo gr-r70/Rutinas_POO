@@ -15,7 +15,7 @@ private int numero;
 private String descripcion;
 private boolean completado;
 
-    public Paso(int numero, String descripcion, boolean completado) {
+    public Paso(int numero, String descripcion) {
         this.numero = numero;
         this.descripcion = descripcion;
         this.completado = false;
